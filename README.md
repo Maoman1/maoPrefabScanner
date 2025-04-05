@@ -45,7 +45,7 @@ When loaded into the world, the mod finds all `GameObject` instances within 5 me
 4. Run the game once to generate BepInEx folders  
 5. Extract `maoPrefabScanner.zip` into `BepInEx\plugins`  
 6. Launch the game and load into a world  
-7. Press F7 and wait a few seconds
+7. Stand near the thing you want to scan, press F7 and  wait a few seconds
 8. Alt-Tab to the BepInEx console 
 9. Ctrl+A, Ctrl+C, Ctrl+V, Ctrl+F
 10. ???????
