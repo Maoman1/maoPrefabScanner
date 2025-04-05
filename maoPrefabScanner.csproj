@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\SharedReferences.props" />
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>maoPrefabScanner</AssemblyName>
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+
+
+
+  <Target Name="PostBuild" AfterTargets="Build">
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="E:\SteamLibrary\steamapps\common\ASKA\BepInEx\plugins\maoPrefabScanner" />
+  </Target>
+</Project>
