@@ -27,7 +27,7 @@ When loaded into the world, the mod finds all `GameObject` instances within 5 me
 
 ## Known Issues
 
-- Scanning large scenes will produce a lot of console output—expect some lag on weaker systems
+- Scanning busy scenes will produce a lot of console output—expect some lag on weaker systems
 - Some dynamically created objects may not appear if scanning occurs too early
 
 ## Requirements
